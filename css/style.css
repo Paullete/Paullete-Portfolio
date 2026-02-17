@@ -663,11 +663,41 @@ h3.my-profession{
     color: #154861;
 }
 
+/* .card {
+    margin-bottom: 4rem;
+    box-shadow: 5px 8px 16px -5px rgba(0,0,0,0.82);
+    border-radius: 10px;
+} */
+
+
+
+
 .card {
     margin-bottom: 4rem;
     box-shadow: 5px 8px 16px -5px rgba(0,0,0,0.82);
     border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
+/* columns must be separate, OUTSIDE the card block */
+.col-md-4,
+.col-lg-4,
+.col-sm-6 {
+    display: flex;
+}
+
+/* push button to bottom */
+.card .card-btn,
+.card a.btn {
+    margin-top: auto;
+}
+
+
+
+
 
 .card p {
     display: none;
