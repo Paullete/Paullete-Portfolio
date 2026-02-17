@@ -700,7 +700,7 @@ h3.my-profession{
 
 
 .card p {
-    display: flex;
+    display: none;
 }
 
 .card:hover p {
